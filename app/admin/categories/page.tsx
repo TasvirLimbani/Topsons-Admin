@@ -220,7 +220,7 @@ export default function CategoriesPage() {
                   />
                 )}
 
-                <div className="px-4 mt-4">
+                <div className="px-4 mt-1">
                   <h3 className="font-semibold text-center text-xl font-serif">
                     {category.category_name}
                   </h3>

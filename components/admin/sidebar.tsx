@@ -74,8 +74,11 @@ export function AdminSidebar() {
 
           {/* Footer */}
           <div className="p-4 border-t" style={{ borderColor: '#2F5544', color: '#F5F0E8' }}>
-            <p className="text-xs opacity-60 text-center">v1.0.0</p>
-          </div>
+            <p className="text-xs opacity-60 text-center">v 1.0.0</p>
+            <p className="text-xs opacity-60 text-center">
+              Designed and managed by <br />
+              Radhe Software Solutions
+            </p>          </div>
         </div>
       </aside>
 
