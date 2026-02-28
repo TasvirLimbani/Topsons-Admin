@@ -214,7 +214,7 @@ export default function CategoriesPage() {
               >
                 {category.image && (
                   <img
-                    src={category.image}
+                    src={`/api/image?url=${encodeURIComponent(category.image)}`}
                     alt={category.category_name}
                     className="w-full h-full object-cover"
                   />
